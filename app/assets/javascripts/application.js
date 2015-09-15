@@ -13,4 +13,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery
+//= require jquery_ujs
+//= require ember
+//= require ember-data
+//= require active-model-adapter
+//= require_self
+//= require ./todo_app
+
+// for more details see: http://emberjs.com/guides/application/
+TodoApp = Ember.Application.create();
+
 //= require_tree .

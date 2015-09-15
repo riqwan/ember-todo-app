@@ -1,0 +1,23 @@
+base: &base
+  adapter: postgresql
+  encoding: utf8
+  username:
+  password:
+  host: 127.0.0.1
+  pool: 5
+
+development:
+  <<: *base
+  database: todo_development
+
+test:
+  <<: *base
+  database: todo_test
+
+staging:
+  <<: *base
+  database: todo_staging
+
+production:
+  <<: *base
+  database: todo_production

@@ -12,6 +12,8 @@ gem 'foreman'
 gem 'puma'
 gem 'ember-rails'
 gem 'ember-source', '~> 1.10.0'
+gem 'ember-data-source', '~> 1.13.0'
+gem 'handlebars-source', '~> 1.3.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 
 group :development, :test do
